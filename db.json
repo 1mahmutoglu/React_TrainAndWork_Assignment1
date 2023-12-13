@@ -1,0 +1,816 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "SUV"
+        },
+        {
+            "id": 2,
+            "name": "Sedan"
+        },
+        {
+            "id": 3,
+            "name": "Transit"
+        },
+        {
+            "id": 4,
+            "name": "Motorsiklet"
+        },
+        {
+            "id": 5,
+            "name": "Hatchback"
+        }
+    ],
+    "brands":[
+        {
+            "id": 1,
+            "name": "Toyota"
+        },
+        {
+            "id": 2,
+            "name": "Honda"
+        },
+        {
+            "id": 3,
+            "name": "Ford"
+        },
+        {
+            "id": 4,
+            "name": "Jeep"
+        },
+        {
+            "id": 5,
+            "name": "BMW"
+        },
+        {
+            "id": 6,
+            "name": "Audi"
+        },
+        {
+            "id": 7,
+            "name": "Mercedes-Benz"
+        },
+        {
+            "id": 8,
+            "name": "Volvo"
+        },
+        {
+            "id": 9,
+            "name": "Kia"
+        },
+        {
+            "id": 10,
+            "name": "Land Rover"
+        },
+        {
+            "id": 11,
+            "name": "Hyundai"
+        },
+        {
+            "id": 12,
+            "name": "Nissan"
+        },
+        {
+            "id": 13,
+            "name": "Volkswagen"
+        },
+        {
+            "id": 14,
+            "name": "Lexus"
+        },
+        {
+            "id": 15,
+            "name": "Chevrolet"
+        },
+        {
+            "id": 16,
+            "name": "Ram"
+        },
+        {
+            "id": 17,
+            "name": "GMC"
+        },
+        {
+            "id": 18,
+            "name": "Porsche"
+        },
+        {
+            "id": 19,
+            "name": "Dodge"
+        },
+        {
+            "id": 20,
+            "name": "Tesla"
+        },
+        {
+            "id": 21,
+            "name": "Mazda"
+        },
+        {
+            "id": 22,
+            "name": "Subaru"
+        },
+        {
+            "id": 23,
+            "name": "Acura"
+        },
+        {
+            "id": 24,
+            "name": "Cadillac"
+        },
+        {
+            "id": 25,
+            "name": "Genesis"
+        },
+        {
+            "id": 26,
+            "name": "Infiniti"
+        },
+        {
+            "id": 27,
+            "name": "Jaguar"
+        },
+        {
+            "id": 28,
+            "name": "Mini"
+        },
+        {
+            "id": 29,
+            "name": "Fiat"
+        }
+    ],
+
+    "fuelType":[
+        {
+            "id": 1,
+            "name": "Benzin"
+        },
+        {
+            "id": 2,
+            "name": "Dizel"
+        },
+        {
+            "id": 3,
+            "name": "Elektrik"
+        },
+        {
+            "id": 4,
+            "name": "Hibrit"
+        }
+    ],
+
+    "cars": [
+        {
+            "id": 1,
+            "categoryId": 2,
+            "brand": "Toyota",
+            "model": "RAV4",
+            "year": 2015,
+            "pricePerDay": 117,
+            "image": "https://picolio.auto123.com/15photo/toyota/2015-toyota-rav4-fwd-le.png",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 1
+        },
+        {
+            "id": 2,
+            "categoryId": 3,
+            "brand": "Honda",
+            "model": "CR-V",
+            "year": 2022,
+            "pricePerDay": 498,
+            "image": "data:image/jpeg;base64,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",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 2
+        },
+        {
+            "id": 3,
+            "categoryId": 4,
+            "brand": "Ford",
+            "model": "Explorer",
+            "year": 2019,
+            "pricePerDay": 145,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i97443212/2019_ford_explorer_angularfront.jpg",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 3
+        },
+        {
+            "id": 4,
+            "categoryId": 5,
+            "brand": "Jeep",
+            "model": "Wrangler",
+            "year": 2016,
+            "pricePerDay": 415,
+            "image": "data:image/jpeg;base64,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",
+            "fuel_type": "Benzin",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 4
+        },
+        {
+            "id": 5,
+            "categoryId": 1,
+            "brand": "BMW",
+            "model": "X5",
+            "year": 2022,
+            "pricePerDay": 205,
+            "image": "https://media.ed.edmunds-media.com/bmw/x5/2021/oem/2021_bmw_x5_4dr-suv_m50i_fq_oem_1_600.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 5
+        },
+        {
+            "id": 6,
+            "categoryId": 2,
+            "brand": "Audi",
+            "model": "Q7",
+            "year": 2021,
+            "pricePerDay": 201,
+            "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/0a52c091-58e0-4222-9ddf-ceaa9472d260/0125bc55-8428-44e0-a710-18a6d495003c.png",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 6
+        },
+        {
+            "id": 7,
+            "categoryId": 3,
+            "brand": "Mercedes-Benz",
+            "model": "GLE",
+            "year": 2017,
+            "pricePerDay": 110,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i22349048/2017_mercedes_benz_gle_class_angularfront.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 7
+        },
+        {
+            "id": 8,
+            "categoryId": 4,
+            "brand": "Volvo",
+            "model": "XC90",
+            "year": 2021,
+            "pricePerDay": 115,
+            "image": "https://cdn.wheel-size.com/thumbs/07/9a/079a37ee7f63652412ac9c81521d1614.jpg",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 8
+        },
+        {
+            "id": 9,
+            "categoryId": 5,
+            "brand": "Kia",
+            "model": "Telluride",
+            "year": 2016,
+            "pricePerDay": 241,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9IxHDxNweWDItXehYw7OX0OW3E-UIna2zA&usqp=CAU",
+            "fuel_type": "Benzin",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 9
+        },
+        {
+            "id": 10,
+            "categoryId": 1,
+            "brand": "Land Rover",
+            "model": "Discovery",
+            "year": 2015,
+            "pricePerDay": 293,
+            "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/de2620fe-ec8b-46ea-92c6-0af94e748710/48fb307d-b0c7-47a1-a17d-c97a33ea63a9.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 10
+        },
+        {
+            "id": 11,
+            "categoryId": 2,
+            "brand": "Toyota",
+            "model": "Corolla",
+            "year": 2019,
+            "pricePerDay": 219,
+            "image": "https://www.log.com.tr/wp-content/uploads/2018/11/toyotacorollasedan2-660x371.jpg",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 1
+        },
+        {
+            "id": 12,
+            "categoryId": 3,
+            "brand": "Honda",
+            "model": "Civic",
+            "year": 2017,
+            "pricePerDay": 347,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/36aff300-8c88-45e3-b717-d3f66436fe19/959ba0f6-22b5-43a6-8eba-f6114eaaf96a.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 2
+        },
+        {
+            "id": 13,
+            "categoryId": 4,
+            "brand": "Ford",
+            "model": "Focus",
+            "year": 2021,
+            "pricePerDay": 380,
+            "image": "https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/018/741/original/Ford-Focus-2021-gray.jpg?1611764863",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 3
+        },
+        {
+            "id": 14,
+            "categoryId": 5,
+            "brand": "Hyundai",
+            "model": "Elantra",
+            "year": 2021,
+            "pricePerDay": 384,
+            "image": "https://dealer-content.s3.amazonaws.com/images/models/hyundai/2021/elantra/colors/black.png",
+            "fuel_type": "Benzin",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 11
+        },
+        {
+            "id": 15,
+            "categoryId": 1,
+            "brand": "Nissan",
+            "model": "Sentra",
+            "year": 2021,
+            "pricePerDay": 280,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i159614341/2021_nissan_sentra_angularfront.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 12
+        },
+        {
+            "id": 16,
+            "categoryId": 2,
+            "brand": "Volkswagen",
+            "model": "Jetta",
+            "year": 2015,
+            "pricePerDay": 283,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i5258/2015_volkswagen_jetta_angularfront.jpg",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 13
+        },
+        {
+            "id": 17,
+            "categoryId": 3,
+            "brand": "Mercedes-Benz",
+            "model": "C-Class",
+            "year": 2022,
+            "pricePerDay": 319,
+            "image": "https://carsguide-res.cloudinary.com/image/upload/f_auto%2Cfl_lossy%2Cq_auto%2Ct_default/v1/editorial/mercedes-benz-c-class-my22-index-1.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 7
+        },
+        {
+            "id": 18,
+            "categoryId": 4,
+            "brand": "BMW",
+            "model": "3 Series",
+            "year": 2021,
+            "pricePerDay": 430,
+            "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/52639/3-series-gran-limousine-exterior-right-front-three-quarter-2.jpeg?q=80",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 5
+        },
+        {
+            "id": 19,
+            "categoryId": 5,
+            "brand": "Audi",
+            "model": "A4",
+            "year": 2020,
+            "pricePerDay": 105,
+            "image": "https://www.motortrend.com/uploads/sites/10/2020/08/2020-audi-a4-sedan-premium-sedan-angular-front.png?fit=around%7C875:492",
+            "fuel_type": "Benzin",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 6
+        },
+        {
+            "id": 20,
+            "categoryId": 1,
+            "brand": "Lexus",
+            "model": "IS",
+            "year": 2018,
+            "pricePerDay": 221,
+            "image": "data:image/jpeg;base64,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",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 14
+        },
+        {
+            "id": 21,
+            "categoryId": 2,
+            "brand": "Ford",
+            "model": "F-150",
+            "year": 2019,
+            "pricePerDay": 488,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i102329229/2019_ford_f_150_angularfront.jpg",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 3
+        },
+        {
+            "id": 22,
+            "categoryId": 3,
+            "brand": "Chevrolet",
+            "model": "Silverado",
+            "year": 2015,
+            "pricePerDay": 101,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i5014/2015_chevrolet_silverado_1500_angularfront.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 15
+        },
+        {
+            "id": 23,
+            "categoryId": 4,
+            "brand": "Ram",
+            "model": "1500",
+            "year": 2016,
+            "pricePerDay": 328,
+            "image": "https://images.hgmsites.net/lrg/2016-ram-1500-angular-front-exterior-view_100537102_l.jpg",
+            "fuel_type": "Elektrik",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 16
+        },
+        {
+            "id": 24,
+            "categoryId": 5,
+            "brand": "Toyota",
+            "model": "Tacoma",
+            "year": 2019,
+            "pricePerDay": 257,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i113036074/2019_toyota_tacoma_angularfront.jpg",
+            "fuel_type": "Elektrik",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 1
+        },
+        {
+            "id": 25,
+            "categoryId": 1,
+            "brand": "GMC",
+            "model": "Sierra",
+            "year": 2018,
+            "pricePerDay": 363,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i35612552/2018_gmc_sierra_1500_angularfront.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 17
+        },
+        {
+            "id": 26,
+            "categoryId": 2,
+            "brand": "Chevrolet",
+            "model": "Corvette",
+            "year": 2020,
+            "pricePerDay": 522,
+            "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/308395c6-9d5e-4e92-ac7c-8bd41cc6cb9f/d2136d2e-7b59-4eec-ba54-bb8d73810e26.png",
+            "fuel_type": "Elektrik",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 15
+        },
+        {
+            "id": 27,
+            "categoryId": 3,
+            "brand": "Porsche",
+            "model": "911",
+            "year": 2018,
+            "pricePerDay": 423,
+            "image": "https://cars.usnews.com/pics/size/390x290/images/Auto/izmo/i24693747/2018_porsche_911_0_angularrear.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 18
+        },
+        {
+            "id": 28,
+            "categoryId": 4,
+            "brand": "Ford",
+            "model": "Mustang",
+            "year": 2018,
+            "pricePerDay": 499,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/4bf4417d-d529-4993-a134-1ae992de3f0b/05a5a5ad-1074-477a-a564-e8081801e4b8.png",
+            "fuel_type": "Elektrik",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 3
+        },
+        {
+            "id": 29,
+            "categoryId": 5,
+            "brand": "Dodge",
+            "model": "Challenger",
+            "year": 2021,
+            "pricePerDay": 206,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/2f2105bc-a9af-403d-9679-47770386c81b/ed63f711-19c8-4dfa-a257-a0d3e949bfba.png",
+            "fuel_type": "Elektrik",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 19
+        },
+        {
+            "id": 30,
+            "categoryId": 1,
+            "brand": "Nissan",
+            "model": "GT-R",
+            "year": 2019,
+            "pricePerDay": 320,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/240d1820-da84-49d5-8fb5-a84df91cc7b2/458075b4-be41-4e98-94c4-45fc00b49260.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 12
+        },
+        {
+            "id": 31,
+            "categoryId": 2,
+            "brand": "Tesla",
+            "model": "Model S",
+            "year": 2016,
+            "pricePerDay": 132,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/391cb579-a460-418f-85a9-9f1e99a4de28/cb4acda3-0ed3-4ae1-80f6-aa3449f650e0.png",
+            "fuel_type": "Elektrik",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 20
+        },
+        {
+            "id": 32,
+            "categoryId": 3,
+            "brand": "Nissan",
+            "model": "Leaf",
+            "year": 2015,
+            "pricePerDay": 306,
+            "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/db52e9a1-4832-417c-93db-a4f6ca0880bc/d40ab256-350e-43bc-9d1f-03e6018b3684.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 12
+        },
+        {
+            "id": 33,
+            "categoryId": 4,
+            "brand": "Chevrolet",
+            "model": "Bolt",
+            "year": 2019,
+            "pricePerDay": 125,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i94989872/2019_chevrolet_volt_angularfront.jpg",
+            "fuel_type": "Elektrik",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 15
+        },
+        {
+            "id": 34,
+            "categoryId": 5,
+            "brand": "BMW",
+            "model": "i3",
+            "year": 2021,
+            "pricePerDay": 132,
+            "image": "https://d2ivfcfbdvj3sm.cloudfront.net/7fc965ab77efe6e0fa62e4ca1ea7673bb65a4451031e3d8e88cb/stills_0640_png/MY2021/50508/50508_st0640_116.png",
+            "fuel_type": "Elektrik",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 5
+        },
+        {
+            "id": 35,
+            "categoryId": 1,
+            "brand": "Audi",
+            "model": "e-tron",
+            "year": 2022,
+            "pricePerDay": 310,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/b2a647b8-8b5d-4ca8-bc08-71c93e113b98/cc514430-3cf9-4bce-9523-9c01d130cd50.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 6
+        },
+        {
+            "id": 36,
+            "categoryId": 2,
+            "brand": "Mazda",
+            "model": "CX-5",
+            "year": 2017,
+            "pricePerDay": 265,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/af213554-bc50-4086-8d99-848e1fb5f83f/3cfe72ec-f710-49ba-9f3b-36f614a8560e.png",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 21
+        },
+        {
+            "id": 37,
+            "categoryId": 3,
+            "brand": "Subaru",
+            "model": "Forester",
+            "year": 2018,
+            "pricePerDay": 191,
+            "image": "https://www.subaru-global.com/ebrochure/Forester/2018my/TRTR/mobile/assets/images/lineup/lineup_09_ext.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 22
+        },
+        {
+            "id": 38,
+            "categoryId": 4,
+            "brand": "Hyundai",
+            "model": "Tucson",
+            "year": 2017,
+            "pricePerDay": 254,
+            "image": "https://edgecast-img.yahoo.net/mysterio/api/0D44DB924093253332846457F366F1DEB5D7855DE01887CB963AB7EB6600C0A6/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/CAC60HYS022D021001.jpg",
+            "fuel_type": "Benzin",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 11
+        },
+        {
+            "id": 39,
+            "categoryId": 5,
+            "brand": "Acura",
+            "model": "RDX",
+            "year": 2020,
+            "pricePerDay": 272,
+            "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/894f91c2-89be-476c-b97f-e9e429944ecf/3cc3c826-75c1-4dd2-83f4-a5956824d22d.png",
+            "fuel_type": "Benzin",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 23
+        },
+        {
+            "id": 40,
+            "categoryId": 1,
+            "brand": "Porsche",
+            "model": "Cayenne",
+            "year": 2015,
+            "pricePerDay": 112,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/2cf4d016-a4cc-4290-a697-0f94a8fe79cc/7522fd7a-766d-429c-a835-cbe76ebd8dff.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 18
+        },
+        {
+            "id": 41,
+            "categoryId": 2,
+            "brand": "Cadillac",
+            "model": "CT5",
+            "year": 2020,
+            "pricePerDay": 177,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/ccc7fb05-ec99-42f9-be8d-05750a38df3b/149952b6-6103-4c54-90c9-dd55f2967488.png",
+            "fuel_type": "Hibrit",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 24
+        },
+        {
+            "id": 42,
+            "categoryId": 3,
+            "brand": "Genesis",
+            "model": "G70",
+            "year": 2016,
+            "pricePerDay": 416,
+            "image": "data:image/jpeg;base64,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",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 25
+        },
+        {
+            "id": 43,
+            "categoryId": 4,
+            "brand": "Infiniti",
+            "model": "Q50",
+            "year": 2019,
+            "pricePerDay": 143,
+            "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/3b9e5614-0d48-4f20-8848-dd39d7c8ad43/8bf0d0c4-a05e-481d-88cd-75e878cdeac0.png",
+            "fuel_type": "Hibrit",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 26
+        },
+        {
+            "id": 44,
+            "categoryId": 5,
+            "brand": "Jaguar",
+            "model": "XE",
+            "year": 2021,
+            "pricePerDay": 109,
+            "image": "https://ymimg1.b8cdn.com/resized/car_model/6369/pictures/6206716/mobile_listing_main_01.jpg",
+            "fuel_type": "Hibrit",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 27
+        },
+        {
+            "id": 45,
+            "categoryId": 1,
+            "brand": "Kia",
+            "model": "Stinger",
+            "year": 2015,
+            "pricePerDay": 273,
+            "image": "https://cdn.euroncap.com/media/32621/kia-stinger-359-235.jpg?mode=crop&width=359&height=235",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 9
+        },
+        {
+            "id": 46,
+            "categoryId": 2,
+            "brand": "Mazda",
+            "model": "3",
+            "year": 2018,
+            "pricePerDay": 402,
+            "image": "https://cars.usnews.com/static/images/Auto/izmo/i36138930/2018_mazda_mazda3_angularfront.jpg",
+            "fuel_type": "Hibrit",
+            "transmission": "Manuel",
+            "car_type": "Sedan",
+            "brandId": 21
+        },
+        {
+            "id": 47,
+            "categoryId": 3,
+            "brand": "Subaru",
+            "model": "Impreza",
+            "year": 2022,
+            "pricePerDay": 301,
+            "image": "https://www.cars.com/i/large/in/v2/stock_photos/09116215-056c-4881-a529-e004ea184d81/9c5894a9-3a22-4c90-ad46-caccc9b381fe.png",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "Transit",
+            "brandId": 22
+        },
+        {
+            "id": 48,
+            "categoryId": 4,
+            "brand": "Volkswagen",
+            "model": "Golf",
+            "year": 2016,
+            "pricePerDay": 344,
+            "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/de5deaa6-8d0f-4eb9-a1b4-005fee2efdc8/1f3386aa-b9e6-4516-9f2c-5a97b4e9a177.png",
+            "fuel_type": "Hibrit",
+            "transmission": "Manuel",
+            "car_type": "Motorsiklet",
+            "brandId": 13
+        },
+        {
+            "id": 49,
+            "categoryId": 5,
+            "brand": "Mini",
+            "model": "Cooper",
+            "year": 2018,
+            "pricePerDay": 302,
+            "image": "https://images.hgmsites.net/med/2018-mini-convertible-cooper-s-fwd-angular-front-exterior-view_100629584_m.jpg",
+            "fuel_type": "Benzin",
+            "transmission": "Otomatik",
+            "car_type": "Hatchback",
+            "brandId": 28
+        },
+        {
+            "id": 50,
+            "categoryId": 1,
+            "brand": "Fiat",
+            "model": "500",
+            "year": 2016,
+            "pricePerDay": 177,
+            "image": "https://www.oopscars.com/wp-content/uploads/2016_FIAT_500_pic-1.jpg",
+            "fuel_type": "Dizel",
+            "transmission": "Otomatik",
+            "car_type": "SUV",
+            "brandId": 29
+        }
+    ],
+    "rentals": [],
+    "users": []
+}
